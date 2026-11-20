@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aulia Wulandari — Portofolio Pelajar &amp; Layanan Perbankan Syariah</title>
+  <meta name="description" content="Portofolio pribadi Aulia Wulandari, pelajar dengan keahlian Layanan Perbankan Syariah berdomisili di Mojokerto, Indonesia.">
+  <meta name="theme-color" content="#1e40af" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f172a" media="(prefers-color-scheme: dark)">
+
+  <!-- Open Graph / Media Sosial -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Aulia Wulandari — Portofolio Pelajar &amp; Layanan Perbankan Syariah">
+  <meta property="og:description" content="Portofolio pribadi Aulia Wulandari, pelajar dengan keahlian Layanan Perbankan Syariah di Mojokerto, Indonesia.">
+  <meta property="og:locale" content="id_ID">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Aulia Wulandari — Portofolio Pelajar &amp; Layanan Perbankan Syariah">
+  <meta name="twitter:description" content="Portofolio pribadi Aulia Wulandari, pelajar dengan keahlian Layanan Perbankan Syariah di Mojokerto, Indonesia.">
+
+  <!-- Favicon SVG Inline -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231e40af'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-weight='700' font-size='28' fill='%23facc15'%3EAW%3C/text%3E%3C/svg%3E">
+
+  <!-- Google Fonts dengan fallback sistem -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    /* Variabel Warna & Desain (Mode Terang Default) */
+    :root {
+      --bg-page: #f8fafc;
+      --bg-surface: #ffffff;
+      --bg-subtle: #eff6ff;
+      --text-primary: #0f172a;
+      --text-secondary: #334155;
+      --text-muted: #475569;
+      --brand-primary: #1e40af;      /* Biru Kobalt WCAG AA */
+      --brand-primary-hover: #1d4ed8;
+      --brand-on-primary: #ffffff;
+      --accent-yellow: #facc15;      /* Aksen Kuning */
+      --accent-yellow-soft: #fef9c3;
+      --accent-yellow-text: #713f12;
+      --border-color: #cbd5e1;
+      --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.08);
+      --shadow-md: 0 8px 24px rgba(15, 23, 42, 0.08);
+      --focus-ring: #2563eb;
+      --radius-md: 12px;
+      --radius-lg: 16px;
+      --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    }
+
+    /* Mode Gelap Otomatis via Sistem */
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        --bg-page: #0b1120;
+        --bg-surface: #1e293b;
+        --bg-subtle: #172554;
+        --text-primary: #f8fafc;
+        --text-secondary: #cbd5e1;
+        --text-muted: #94a3b8;
+        --brand-primary: #60a5fa;
+        --brand-primary-hover: #93c5fd;
+        --brand-on-primary: #0f172a;
+        --accent-yellow: #facc15;
+        --accent-yellow-soft: rgba(250, 204, 21, 0.16);
+        --accent-yellow-text: #fef08a;
+        --border-color: #334155;
+        --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+        --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.35);
+        --focus-ring: #facc15;
+      }
+    }
+
+    /* Mode Gelap Manual via Tombol */
+    :root[data-theme="dark"] {
+      --bg-page: #0b1120;
+      --bg-surface: #1e293b;
+      --bg-subtle: #172554;
+      --text-primary: #f8fafc;
+      --text-secondary: #cbd5e1;
+      --text-muted: #94a3b8;
+      --brand-primary: #60a5fa;
+      --brand-primary-hover: #93c5fd;
+      --brand-on-primary: #0f172a;
+      --accent-yellow: #facc15;
+      --accent-yellow-soft: rgba(250, 204, 21, 0.16);
+      --accent-yellow-text: #fef08a;
+      --border-color: #334155;
+      --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+      --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.35);
+      --focus-ring: #facc15;
+    }
+
+    /* Reset & Dasar */
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      overflow-x: hidden;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+    }
+
+    body {
+      margin: 0;
+      font-family: var(--font-sans);
+      background-color: var(--bg-page);
+      color: var(--text-primary);
+      line-height: 1.65;
+      overflow-x: hidden;
+      transition: background-color 0.25s ease, color 0.25s ease;
+    }
+
+    /* Tautan Aksesibilitas: Lewati ke Konten */
+    .skip-link {
+      position: absolute;
+      top: -100px;
+      left: 1rem;
+      background: var(--brand-primary);
+      color: var(--brand-on-primary);
+      padding: 0.75rem 1.25rem;
+      border-radius: 8px;
+      font-weight: 700;
+      text-decoration: none;
+      z-index: 1000;
+      transition: top 0.2s ease;
+    }
+
+    .skip-link:focus {
+      top: 1rem;
+    }
+
+    /* Indikator Fokus Jelas */
+    :focus-visible {
+      outline: 3px solid var(--focus-ring);
+      outline-offset: 3px;
+    }
+
+    /* Kontainer Utama */
+    .container {
+      width: 100%;
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 1.25rem;
+    }
+
+    /* Navigasi Atas Sticky */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background-color: var(--bg-surface);
+      border-bottom: 1px solid var(--border-color);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .nav-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 64px;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+      padding: 0.5rem 0;
+    }
+
+    .brand-logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      font-weight: 700;
+      font-size: 1.05rem;
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+
+    .brand-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      background-color: #1e40af;
+      color: #facc15;
+      font-weight: 700;
+      font-size: 0.875rem;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 0.25rem;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      flex-wrap: wrap;
+    }
+
+    .nav-links a {
+      display: inline-block;
+      padding: 0.45rem 0.75rem;
+      color: var(--text-secondary);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+      border-radius: 8px;
+      transition: background-color 0.2s, color 0.2s;
+    }
+
+    .nav-links a:hover {
+      background-color: var(--bg-subtle);
+      color: var(--brand-primary);
+    }
+
+    .theme-toggle {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.45rem 0.85rem;
+      border-radius: 999px;
+      border: 1px solid var(--border-color);
+      background-color: var(--bg-page);
+      color: var(--text-primary);
+      font-family: inherit;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .theme-toggle:hover {
+      border-color: var(--brand-primary);
+    }
+
+    /* Bagian Hero */
+    .hero-section {
+      padding: 4rem 0 3rem;
+    }
+
+    .hero-card {
+      background-color: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 2.5rem 2rem;
+      box-shadow: var(--shadow-md);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-card::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 6px;
+      background: linear-gradient(90deg, #1e40af 0%, #facc15 100%);
+    }
+
+    .hero-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      background-color: var(--accent-yellow-soft);
+      color: var(--accent-yellow-text);
+      padding: 0.35rem 0.85rem;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    .hero-title {
+      margin: 0 0 0.4rem;
+      font-size: clamp(1.85rem, 4vw, 2.75rem);
+      line-height: 1.2;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .hero-role {
+      margin: 0 0 1.25rem;
+      font-size: clamp(1.05rem, 2vw, 1.25rem);
+      font-weight: 600;
+      color: var(--brand-primary);
+    }
+
+    .hero-summary {
+      margin: 0 0 1.75rem;
+      max-width: 65ch;
+      color: var(--text-secondary);
+      font-size: 1.02rem;
+    }
+
+    .hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 1.75rem;
+      font-size: 0.92rem;
+      color: var(--text-muted);
+    }
+
+    .hero-meta-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background-color: var(--brand-primary);
+      color: var(--brand-on-primary);
+      padding: 0.8rem 1.5rem;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-decoration: none;
+      border: 2px solid transparent;
+      transition: background-color 0.2s, transform 0.15s;
+    }
+
+    .btn-primary:hover {
+      background-color: var(--brand-primary-hover);
+      transform: translateY(-1px);
+    }
+
+    /* Section Umum */
+    section.content-section {
+      padding: 2.5rem 0;
+    }
+
+    .section-header {
+      margin-bottom: 1.5rem;
+    }
+
+    .section-title {
+      margin: 0 0 0.35rem;
+      font-size: 1.55rem;
+      font-weight: 700;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .section-title::after {
+      content: "";
+      display: inline-block;
+      width: 28px;
+      height: 4px;
+      border-radius: 2px;
+      background-color: var(--accent-yellow);
+    }
+
+    .section-desc {
+      margin: 0;
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    /* Filter Keahlian di Pengalaman */
+    .filter-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1.25rem;
+      align-items: center;
+    }
+
+    .filter-label {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      margin-right: 0.25rem;
+    }
+
+    .filter-btn {
+      padding: 0.4rem 0.85rem;
+      border-radius: 999px;
+      border: 1px solid var(--border-color);
+      background-color: var(--bg-surface);
+      color: var(--text-secondary);
+      font-family: inherit;
+      font-size: 0.84rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .filter-btn:hover {
+      border-color: var(--brand-primary);
+      color: var(--brand-primary);
+    }
+
+    .filter-btn[aria-pressed="true"] {
+      background-color: var(--brand-primary);
+      color: var(--brand-on-primary);
+      border-color: var(--brand-primary);
+    }
+
+    /* Accordion Pengalaman */
+    .exp-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .exp-card {
+      background-color: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-sm);
+      overflow: hidden;
+    }
+
+    .exp-card[hidden] {
+      display: none;
+    }
+
+    .exp-trigger {
+      width: 100%;
+      text-align: left;
+      background: transparent;
+      border: none;
+      padding: 1.25rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      cursor: pointer;
+      font-family: inherit;
+      color: var(--text-primary);
+    }
+
+    .exp-trigger:hover {
+      background-color: var(--bg-subtle);
+    }
+
+    .exp-heading-group h3 {
+      margin: 0 0 0.25rem;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .exp-org {
+      margin: 0;
+      font-size: 0.92rem;
+      color: var(--text-secondary);
+      font-weight: 500;
+    }
+
+    .exp-chevron {
+      flex-shrink: 0;
+      transition: transform 0.25s ease;
+      color: var(--brand-primary);
+    }
+
+    .exp-trigger[aria-expanded="true"] .exp-chevron {
+      transform: rotate(180deg);
+    }
+
+    /* Panel Accordion - Tetap tampil jika JS mati */
+    .exp-panel {
+      padding: 0 1.5rem 1.5rem;
+      border-top: 1px solid var(--border-color);
+    }
+
+    .js-enabled .exp-panel[hidden] {
+      display: none;
+    }
+
+    .exp-tasks {
+      margin: 1rem 0 1rem;
+      padding-left: 1.25rem;
+      color: var(--text-secondary);
+    }
+
+    .exp-tasks li {
+      margin-bottom: 0.45rem;
+    }
+
+    .tag-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+      margin-top: 0.75rem;
+    }
+
+    .skill-tag {
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 0.25rem 0.65rem;
+      border-radius: 6px;
+      background-color: var(--bg-subtle);
+      color: var(--brand-primary);
+      border: 1px solid var(--border-color);
+    }
+
+    /* Grid Keahlian */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+    }
+
+    .skill-box {
+      background-color: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 1.25rem;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .skill-box h3 {
+      margin: 0 0 0.5rem;
+      font-size: 1rem;
+      color: var(--text-primary);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .skill-box p {
+      margin: 0;
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+    }
+
+    /* Kartu Sertifikasi & Pendidikan */
+    .edu-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1rem;
+    }
+
+    .edu-card {
+      background-color: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 1.35rem;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .edu-badge {
+      display: inline-block;
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      padding: 0.2rem 0.6rem;
+      border-radius: 6px;
+      background-color: var(--accent-yellow-soft);
+      color: var(--accent-yellow-text);
+      margin-bottom: 0.6rem;
+    }
+
+    .edu-card h3 {
+      margin: 0 0 0.3rem;
+      font-size: 1.08rem;
+    }
+
+    .edu-card p {
+      margin: 0;
+      font-size: 0.92rem;
+      color: var(--text-secondary);
+    }
+
+    /* Kontak */
+    .contact-card {
+      background-color: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 2rem;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .contact-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1rem;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      padding: 0.9rem;
+      border-radius: 10px;
+      background-color: var(--bg-page);
+      border: 1px solid var(--border-color);
+    }
+
+    .contact-item a {
+      color: var(--brand-primary);
+      font-weight: 600;
+      text-decoration: none;
+      word-break: break-word;
+    }
+
+    .contact-item a:hover {
+      text-decoration: underline;
+    }
+
+    .copy-btn {
+      margin-top: 0.4rem;
+      padding: 0.3rem 0.65rem;
+      font-size: 0.8rem;
+      font-family: inherit;
+      font-weight: 600;
+      border-radius: 6px;
+      border: 1px solid var(--border-color);
+      background-color: var(--bg-surface);
+      color: var(--text-primary);
+      cursor: pointer;
+    }
+
+    .copy-btn:hover {
+      border-color: var(--brand-primary);
+    }
+
+    /* Footer */
+    .site-footer {
+      margin-top: 3rem;
+      padding: 2rem 0;
+      border-top: 1px solid var(--border-color);
+      background-color: var(--bg-surface);
+      text-align: center;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    /* Animasi Scroll yang Menghormati prefers-reduced-motion */
+    @media (prefers-reduced-motion: no-preference) {
+      .js-enabled .reveal {
+        opacity: 0;
+        transform: translateY(16px);
+        transition: opacity 0.5s ease, transform 0.5s ease;
+      }
+
+      .js-enabled .reveal.is-visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Gaya Cetak (Print CV) */
+    @media print {
+      body {
+        background: #ffffff !important;
+        color: #000000 !important;
+        font-size: 11pt;
+      }
+
+      .site-header,
+      .theme-toggle,
+      .filter-bar,
+      .btn-primary,
+      .copy-btn,
+      .skip-link,
+      .exp-chevron {
+        display: none !important;
+      }
+
+      .hero-card,
+      .exp-card,
+      .skill-box,
+      .edu-card,
+      .contact-card {
+        box-shadow: none !important;
+        border: 1px solid #cbd5e1 !important;
+        background: #ffffff !important;
+        break-inside: avoid;
+      }
+
+      .exp-panel,
+      .js-enabled .exp-panel[hidden] {
+        display: block !important;
+      }
+
+      .hero-section {
+        padding-top: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- =====================================================================
+       EDIT: DATA UTAMA PORTOFOLIO
+       Ubah teks di dalam tag HTML di bawah ini sesuai kebutuhan Anda.
+       Bagian yang diberi tanda "ganti dengan data asli" adalah contoh realistis.
+       ===================================================================== -->
+
+  <a href="#konten-utama" class="skip-link">Lewati ke konten utama</a>
+
+  <!-- Navigasi Atas Sticky -->
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="#beranda" class="brand-logo" aria-label="Beranda Aulia Wulandari">
+        <span class="brand-badge" aria-hidden="true">AW</span>
+        <span>Aulia Wulandari</span>
+      </a>
+
+      <nav aria-label="Navigasi Utama">
+        <ul class="nav-links">
+          <li><a href="#pengalaman">Pengalaman</a></li>
+          <li><a href="#keahlian">Keahlian</a></li>
+          <li><a href="#pendidikan">Sertifikasi &amp; Pendidikan</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </nav>
+
+      <button type="button" id="theme-toggle" class="theme-toggle" aria-label="Ganti tema tampilan">
+        <span id="theme-icon" aria-hidden="true">🌓</span>
+        <span id="theme-text">Tema</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="konten-utama">
+    <!-- 1. HERO -->
+    <section id="beranda" class="hero-section">
+      <div class="container">
+        <div class="hero-card reveal">
+          <!-- EDIT: Sesuaikan label pembuka jika diperlukan -->
+          <div class="hero-pill">
+            <span aria-hidden="true">✨</span>
+            <span>Terbuka untuk Peluang Magang &amp; Administrasi Keuangan</span>
+          </div>
+
+          <!-- EDIT: Nama Lengkap & Profesi -->
+          <h1 class="hero-title">Aulia Wulandari</h1>
+          <p class="hero-role">Pelajar — Keahlian Layanan Perbankan Syariah</p>
+
+          <!-- EDIT: Kalimat pembuka / ringkasan diri -->
+          <p class="hero-summary">
+            Pelajar dengan kompetensi di bidang Layanan Perbankan Syariah yang terbiasa menangani pencatatan kas bank, pembuatan invoice berbasis Excel, pengarsipan dokumen fisik maupun digital, serta pelayanan nasabah koperasi secara teliti dan ramah.
+          </p>
+
+          <div class="hero-meta">
+            <!-- EDIT: Lokasi -->
+            <span class="hero-meta-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Mojokerto, Indonesia
+            </span>
+            <span class="hero-meta-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              auliawulandari240@gmail.com
+            </span>
+          </div>
+
+          <a href="#kontak" class="btn-primary">
+            <span>Hubungi Saya</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. PENGALAMAN -->
+    <section id="pengalaman" class="content-section">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Pengalaman</h2>
+          <p class="section-desc">Klik judul pengalaman untuk membuka atau menutup rincian tugas, atau saring berdasarkan keahlian.</p>
+        </div>
+
+        <!-- Filter Pengalaman berdasarkan Keahlian -->
+        <div class="filter-bar reveal" role="group" aria-label="Saring pengalaman berdasarkan keahlian">
+          <span class="filter-label">Filter:</span>
+          <button type="button" class="filter-btn" data-filter="semua" aria-pressed="true">Semua</button>
+          <button type="button" class="filter-btn" data-filter="kas-bank" aria-pressed="false">Kas Bank</button>
+          <button type="button" class="filter-btn" data-filter="pengarsipan" aria-pressed="false">Pengarsipan</button>
+          <button type="button" class="filter-btn" data-filter="excel" aria-pressed="false">Microsoft Excel</button>
+          <button type="button" class="filter-btn" data-filter="pelayanan" aria-pressed="false">Pelayanan Customer</button>
+        </div>
+
+        <div class="exp-list" id="experience-list">
+          <!-- EDIT: Pengalaman 1 (Data Asli Pengguna) -->
+          <article class="exp-card reveal" data-skills="kas-bank pengarsipan excel pelayanan">
+            <button type="button" class="exp-trigger" aria-expanded="true" aria-controls="exp-panel-1" id="exp-btn-1">
+              <div class="exp-heading-group">
+                <h3>Praktik Kerja Lapangan (PKL)</h3>
+                <p class="exp-org">Koperasi Artha Nira — Pabrik Gula Gempolkrep, Mojokerto</p>
+              </div>
+              <svg class="exp-chevron" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9"/>
+              </svg>
+            </button>
+
+            <div class="exp-panel" id="exp-panel-1" role="region" aria-labelledby="exp-btn-1">
+              <ul class="exp-tasks">
+                <li>Membuat kas bank</li>
+                <li>Pengarsipan bukti kas bank</li>
+                <li>Melakukan proses pengarsipan dokumen digital</li>
+                <li>Melayani customer koperasi</li>
+                <li>Pembuatan invoice pada aplikasi Excel</li>
+              </ul>
+              <div class="tag-row" aria-label="Keahlian terkait">
+                <span class="skill-tag">Kas Bank</span>
+                <span class="skill-tag">Pengarsipan Bukti Kas</span>
+                <span class="skill-tag">Pengarsipan Digital</span>
+                <span class="skill-tag">Pelayanan Customer</span>
+                <span class="skill-tag">Microsoft Excel</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Catatan: Bagian 3 (Proyek) dihilangkan sesuai instruksi karena data proyek kosong / tidak ada -->
+
+    <!-- 4. KEAHLIAN DAN ALAT -->
+    <section id="keahlian" class="content-section">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Keahlian dan Alat</h2>
+          <p class="section-desc">Kompetensi utama dari bidang studi Layanan Perbankan Syariah dan praktik lapangan.</p>
+        </div>
+
+        <!-- EDIT: Daftar Keahlian dan Alat -->
+        <div class="skills-grid">
+          <div class="skill-box reveal">
+            <h3>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
+              Layanan Perbankan Syariah
+            </h3>
+            <p>Pemahaman dasar operasional administrasi keuangan dan prinsip layanan perbankan syariah.</p>
+          </div>
+
+          <div class="skill-box reveal">
+            <h3>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+              Administrasi Kas Bank
+            </h3>
+            <p>Pembuatan laporan kas bank serta pencatatan dan verifikasi bukti transaksi kas masuk dan keluar.</p>
+          </div>
+
+          <div class="skill-box reveal">
+            <h3>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+              Pengarsipan Fisik &amp; Digital
+            </h3>
+            <p>Penataan arsip bukti kas bank secara sistematis dan digitalisasi dokumen administrasi.</p>
+          </div>
+
+          <div class="skill-box reveal">
+            <h3>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+              Microsoft Excel
+            </h3>
+            <p>Pembuatan invoice, rekapitulasi data transaksi keuangan, dan pengelolaan tabel administrasi.</p>
+          </div>
+
+          <div class="skill-box reveal">
+            <h3>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              Pelayanan Customer
+            </h3>
+            <p>Komunikasi ramah dan informatif dalam melayani kebutuhan transaksi anggota/customer koperasi.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. SERTIFIKASI DAN PENDIDIKAN -->
+    <section id="pendidikan" class="content-section">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Sertifikasi dan Pendidikan</h2>
+          <p class="section-desc">Latar belakang pendidikan dan sertifikasi kompetensi.</p>
+        </div>
+
+        <div class="edu-grid">
+          <!-- EDIT: ganti dengan data asli sekolah dan tahun masuk/lulus Anda -->
+          <article class="edu-card reveal">
+            <span class="edu-badge">Pendidikan</span>
+            <h3>Layanan Perbankan Syariah</h3>
+            <p><!-- EDIT: ganti dengan data asli -->SMK / Sekolah Menengah Kejuruan, Mojokerto</p>
+            <p><!-- EDIT: ganti dengan data asli -->Tahun Pelajaran Aktif</p>
+          </article>
+
+          <!-- EDIT: ganti dengan data asli sertifikasi PKL atau uji kompetensi Anda -->
+          <article class="edu-card reveal">
+            <span class="edu-badge">Sertifikasi</span>
+            <h3><!-- EDIT: ganti dengan data asli -->Sertifikat Praktik Kerja Lapangan (PKL)</h3>
+            <p><!-- EDIT: ganti dengan data asli -->Koperasi Artha Nira PG Gempolkrep, Mojokerto</p>
+            <p><!-- EDIT: ganti dengan data asli -->Sertifikat Penyelesaian PKL</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. KONTAK -->
+    <section id="kontak" class="content-section">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Kontak</h2>
+          <p class="section-desc">Silakan hubungi saya melalui email atau tautan di bawah ini untuk diskusi lebih lanjut.</p>
+        </div>
+
+        <div class="contact-card reveal">
+          <ul class="contact-list">
+            <li class="contact-item">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              <div>
+                <strong>Email</strong><br>
+                <a href="mailto:auliawulandari240@gmail.com" id="email-link">auliawulandari240@gmail.com</a><br>
+                <button type="button" class="copy-btn" id="copy-email-btn">Salin Email</button>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <div>
+                <strong>Domisili</strong><br>
+                <span>Mojokerto, Jawa Timur, Indonesia</span>
+              </div>
+            </li>
+
+            <!-- EDIT: ganti dengan data asli tautan LinkedIn / GitHub / portofolio Anda -->
+            <li class="contact-item">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              <div>
+                <strong>LinkedIn</strong><br>
+                <!-- EDIT: ganti dengan data asli -->
+                <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">linkedin.com/in/aulia-wulandari</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Sederhana -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="current-year">2026</span> Aulia Wulandari &bull; Mojokerto, Indonesia.</p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      'use strict';
+
+      // Tandai bahwa JavaScript aktif untuk progressive enhancement
+      document.documentElement.classList.add('js-enabled');
+
+      // 1. Tahun otomatis di footer
+      var yearEl = document.getElementById('current-year');
+      if (yearEl) {
+        yearEl.textContent = new Date().getFullYear();
+      }
+
+      // 2. Pengaturan Tema Terang/Gelap Manual + localStorage (dengan try/catch)
+      var root = document.documentElement;
+      var themeToggle = document.getElementById('theme-toggle');
+      var themeIcon = document.getElementById('theme-icon');
+      var themeText = document.getElementById('theme-text');
+
+      function getSavedTheme() {
+        try {
+          return localStorage.getItem('portfolio-theme');
+        } catch (e) {
+          return null;
+        }
+      }
+
+      function saveTheme(theme) {
+        try {
+          localStorage.setItem('portfolio-theme', theme);
+        } catch (e) {
+          // Abaikan jika penyimpanan diblokir browser
+        }
+      }
+
+      function applyTheme(theme) {
+        if (theme === 'dark' || theme === 'light') {
+          root.setAttribute('data-theme', theme);
+        } else {
+          root.removeAttribute('data-theme');
+        }
+        updateThemeButton();
+      }
+
+      function isCurrentlyDark() {
+        var explicit = root.getAttribute('data-theme');
+        if (explicit === 'dark') return true;
+        if (explicit === 'light') return false;
+        return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      }
+
+      function updateThemeButton() {
+        if (!themeToggle || !themeIcon || !themeText) return;
+        var dark = isCurrentlyDark();
+        themeIcon.textContent = dark ? '☀️' : '🌙';
+        themeText.textContent = dark ? 'Mode Terang' : 'Mode Gelap';
+        themeToggle.setAttribute('aria-label', dark ? 'Ubah ke mode terang' : 'Ubah ke mode gelap');
+      }
+
+      var saved = getSavedTheme();
+      if (saved) {
+        applyTheme(saved);
+      } else {
+        updateThemeButton();
+      }
+
+      if (themeToggle) {
+        themeToggle.addEventListener('click', function () {
+          var nextTheme = isCurrentlyDark() ? 'light' : 'dark';
+          applyTheme(nextTheme);
+          saveTheme(nextTheme);
+        });
+      }
+
+      // 3. Accordion Pengalaman (aria-expanded & aria-controls)
+      var triggers = document.querySelectorAll('.exp-trigger');
+      triggers.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var expanded = btn.getAttribute('aria-expanded') === 'true';
+          var panelId = btn.getAttribute('aria-controls');
+          var panel = panelId ? document.getElementById(panelId) : null;
+
+          btn.setAttribute('aria-expanded', String(!expanded));
+          if (panel) {
+            panel.hidden = expanded;
+          }
+        });
+      });
+
+      // 4. Filter Pengalaman berdasarkan Keahlian (aria-pressed)
+      var filterButtons = document.querySelectorAll('.filter-btn');
+      var expCards = document.querySelectorAll('.exp-card');
+
+      filterButtons.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var selected = btn.getAttribute('data-filter');
+
+          filterButtons.forEach(function (b) {
+            b.setAttribute('aria-pressed', String(b === btn));
+          });
+
+          expCards.forEach(function (card) {
+            var skills = (card.getAttribute('data-skills') || '').split(/\s+/);
+            if (selected === 'semua' || skills.indexOf(selected) !== -1) {
+              card.hidden = false;
+            } else {
+              card.hidden = true;
+            }
+          });
+        });
+      });
+
+      // 5. Tombol Salin Email (Fitur tambahan praktis)
+      var copyBtn = document.getElementById('copy-email-btn');
+      if (copyBtn) {
+        copyBtn.addEventListener('click', function () {
+          var email = 'auliawulandari240@gmail.com';
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(email).then(function () {
+              copyBtn.textContent = 'Email Tersalin ✓';
+              setTimeout(function () {
+                copyBtn.textContent = 'Salin Email';
+              }, 2000);
+            }).catch(function () {
+              copyBtn.textContent = email;
+            });
+          } else {
+            copyBtn.textContent = email;
+          }
+        });
+      }
+
+      // 6. Animasi Muncul Saat Scroll (Menghormati prefers-reduced-motion)
+      var prefersReduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var reveals = document.querySelectorAll('.reveal');
+
+      if (!prefersReduced && 'IntersectionObserver' in window) {
+        var observer = new IntersectionObserver(function (entries, obs) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('is-visible');
+              obs.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.1 });
+
+        reveals.forEach(function (el) {
+          observer.observe(el);
+        });
+      } else {
+        reveals.forEach(function (el) {
+          el.classList.add('is-visible');
+        });
+      }
+    })();
+  </script>
+</body>
+</html>
